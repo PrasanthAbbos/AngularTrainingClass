@@ -1,4 +1,4 @@
-interface TestingInteace{
+export interface TestingInteace{
      name:string;
      age:number;
      show():number;
@@ -9,7 +9,7 @@ let callinterface:TestingInteace = {
     name :"niho",
     age:20,
     show(){
-        console.log("Test");
+        console.log("Niho First Interface");
         return 5;
     }
 }
